@@ -1,6 +1,7 @@
+Use the option 1 if you clone this project. Option 2 explains how to work from an empty project:
 
-1. Create the project from the files in this project  (this is all you need from here)
-2. If you had an empty folder, you'll create the files you have here from scratch
+option 1. Create the project from the files in this project  (this is all you need from here)
+option 2. If you had an empty folder, you'll create the files you have here from scratch
 
 
 
@@ -9,15 +10,15 @@
 
 
 
-1. Create the project from the files in this project
+option 1. Create the project from the files in this project
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
 
-> bower install   (will read bower.json and install bower_componentes with bootstrap and jquery)
-> npm install     (will read Gruntfile.json, and install node_modules with the tasks to compile sass)
-> grunt watch     (will run the listing task)
+: bower install   (will read bower.json and install bower_componentes with bootstrap and jquery)
+: npm install     (will read Gruntfile.json, and install node_modules with the tasks to compile sass)
+: grunt watch     (will run the listing task)
 
 
 
@@ -30,7 +31,7 @@
 
 
 
-2. Steps to customize Bootstrap into my own website FROM AN EMPTY FOLDER
+option 2. Step by Step. How to customize Bootstrap into my own website FROM AN EMPTY FOLDER
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
