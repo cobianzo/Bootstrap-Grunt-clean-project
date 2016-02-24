@@ -1,0 +1,41 @@
+// Create your mixins
+
+
+// for background semitransparent. Only accepts rbg definition colors
+//   @include alpha-background-color(rgba(black, 0.5), white);
+@mixin alpha-background-color($color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  background-color: $solid-color;
+  background-color: $color;
+}
+
+
+
+@mixin border-radius($radius) {
+	@include border-top-radius($radius);
+	@include border-right-radius($radius);
+	@include border-bottom-radius($radius);
+	@include border-left-radius($radius);
+}
+
+
+@mixin filter($filter) {
+  -webkit-filter: $filter;
+  -moz-filter: $filter;
+  -o-filter: $filter;
+  -ms-filter: $filter;
+  filter: $filter;
+
+}
+
+
+
+@mixin transform($property) {
+
+  -webkit-transform: $property;  /* Chrome, Opera 15+, Safari 3.1+ */
+      -ms-transform: $property;  /* IE 9 */
+          transform: $property;  /* Firefox 16+, IE 10+, Opera  */
+
+}

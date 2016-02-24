@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "description": "Bt",
+  "main": "",
+  "authors": [
+    "Alvaro Blanco Cobián"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0",
+    "bootstrap-sass": "~3.3.6"
+  }
+}
